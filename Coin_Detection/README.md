@@ -21,3 +21,11 @@ This activity aims to detect and identify coins (quarters, dimes, nickels, and p
   -matplotlib
   -scikit-image
 4. Place your input image (`coins.png`) and template images (`Quarter.png`, `Dime.png`, `Nickel.png`, `Penny.png`) in the `images` folder.
+
+## Assumptions
+
+Assume that we are given an image containing more than one each of quarters, dimes, nickels, and pennies. Also, you are given template images of these coins in a standard 300x300 canvas.
+
+## Outcome
+
+Detect each coin and tell me the amount of money represented in the image.
